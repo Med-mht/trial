@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/register.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <title>Register page</title>
+  </head>
+  <body>
+    <div class="bg_img">
+      <form action="">
+        <h1 class="title">Creat account</h1>
+        <span class="subtitle">created by MED developper</span>
+        <div class="input">
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter your Username..."
+            data-type="Username"
+          />
+          <span class="alert username_span"></span>
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter your Email..."
+            data-type="Email"
+          />
+          <span class="alert email_span"></span>
+        </div>
+        <div class="input">
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password..."
+            data-type="Password"
+          />
+          <span class="alert password_span"></span>
+        </div>
+
+        <button type="submit">register</button>
+        <span class="footer"
+          >already have an account? <a href="login.html">login</a></span
+        >
+      </form>
+    </div>
+
+    <script src="/JS/register.js"></script>
+  </body>
+</html>
